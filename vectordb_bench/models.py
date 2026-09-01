@@ -136,6 +136,7 @@ class CaseConfigParamType(Enum):
     metric_type_name = "metric_type_name"
     mongodb_quantization_type = "quantization"
     mongodb_num_candidates_ratio = "num_candidates_ratio"
+    mongodb_exact = "exact"
     use_partition_key = "use_partition_key"
     refresh_interval = "refresh_interval"
     use_rescore = "use_rescore"
